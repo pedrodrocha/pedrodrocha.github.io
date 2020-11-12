@@ -20,6 +20,7 @@ body{
     list-style-type: none;
     margin: 0;
     display: 0;
+    font-size: 1.5rem;
 
 }
 #menu a{
@@ -75,6 +76,7 @@ End Important Part
     font-family: 'Open Sans Condensed', sans-serif;
     color: #444;
     line-height: 1.8;
+    font-size: 1.2rem;
 }
 
 .inline-links{

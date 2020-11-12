@@ -19,7 +19,7 @@ body{
 
 h1{
     font-family: 'Xanh Mono', monospace;
-    font-size: 5rem;
+    font-size: 6rem;
     animation-duration: 3s;
     animation-name: slideinh1;
     margin-left: 15%;
@@ -40,7 +40,7 @@ h1{
     display: flex;
     flex-direction: column;
     list-style-type: none;
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: #444;
 }
 
@@ -98,6 +98,7 @@ h1{
     animation-duration: 4s;
     animation-name: slidein3;
     margin-left: 40%;
+    margin-top: 1.5rem;
 }
 
 #item-hero-animation3 img{
@@ -126,7 +127,8 @@ h1{
     list-style-type: none;
     justify-content: space-evenly;
     padding: 0;
-    margin-top: 8rem;
+    margin-top: 12rem;
+    font-size: 1.5rem;
 }
 
 .blink-text-menu a{
