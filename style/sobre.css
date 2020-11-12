@@ -38,7 +38,7 @@ Start Important Part
 .underline--magical {
     background-image: linear-gradient(120deg, #BD3D38 0%, #f0f0f0 100%);
     background-repeat: no-repeat;
-    background-size: 100% 0.2em;
+    background-size: 100% 0.2rem;
     background-position: 0 88%;
     transition: background-size 0.25s ease-in;
 
@@ -53,7 +53,7 @@ End Important Part
 ==================================================*/
 #wrapper{
     margin-left: 20%;
-    margin-top:5em;
+    margin-top:5rem;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -61,12 +61,13 @@ End Important Part
 
 }
 #eu{
-    width: 10em;
+    width: 10rem;
     height: auto;
     border-radius: 20%;
-    border: .2em solid #444;
+    border: .2rem solid #444;
     align-self: center;
     box-shadow: 5px 5px 5px #444;
+    margin-bottom: 1rem;
 }
 
 #wrapper p{
@@ -98,9 +99,9 @@ End Important Part
 }
 
 .icon-list-item{
-   padding-left: 1em;
+   padding-left: 1rem;
 }
 #svg{
-    width: 1.6em;
+    width: 1.6rem;
     fill: #444;
 }
