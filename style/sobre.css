@@ -54,7 +54,7 @@ End Important Part
 ==================================================*/
 #wrapper{
     margin-left: 20%;
-    margin-top:8rem;
+    margin-top:6rem;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -75,8 +75,8 @@ End Important Part
     text-align: justify;
     font-family: 'Open Sans Condensed', sans-serif;
     color: #444;
-    line-height: 1.8;
-    font-size: 1.2rem;
+    line-height: 3rem;
+    font-size: 1.6rem;
 }
 
 .inline-links{
@@ -93,11 +93,11 @@ End Important Part
     list-style-type: none;
     margin: 0;
     padding: 0;
-    color:black
+    color:#444
 }
 
 #icon-list a{
-    color: black
+    color: #444;
 }
 
 .icon-list-item{
@@ -106,4 +106,8 @@ End Important Part
 #svg{
     width: 1.6rem;
     fill: #444;
+}
+
+#svg:hover{
+    fill: #BD3D38
 }
