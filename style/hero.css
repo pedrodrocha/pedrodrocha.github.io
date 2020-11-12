@@ -57,7 +57,7 @@ h1{
 }
 
 #item-hero-animation1 img{
-    width: 1rem;
+    width: 2.5rem;
     margin-right: 1rem;
     color: #444;
 
@@ -80,7 +80,7 @@ h1{
 
 
 #item-hero-animation2 img{
-    width: 1.2em;
+    width: 3rem;
     margin-right: 1em;
     color: #444;
 
@@ -98,11 +98,11 @@ h1{
     animation-duration: 4s;
     animation-name: slidein3;
     margin-left: 40%;
-    margin-top: 1.5rem;
+    margin-top: 2rem;
 }
 
 #item-hero-animation3 img{
-    width: 1rem;
+    width: 2.5rem;
     margin-right: 1rem;
     color: #444;
     padding-top: .5rem;
