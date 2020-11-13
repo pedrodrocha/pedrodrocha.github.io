@@ -1,8 +1,9 @@
 {
-  "name": "siteV.2",
+  "name": "site",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "type":"module",
   "dependencies": {
     "animate.css": "^4.1.1",
     "d3": "^6.2.0"

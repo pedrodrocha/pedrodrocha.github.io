@@ -12,7 +12,7 @@ svg
         d3.select(this)
             .attr('fill','#444')
     })
-    
+
 lattes
     .style('color','#444')
     .on('mouseover', function(){
