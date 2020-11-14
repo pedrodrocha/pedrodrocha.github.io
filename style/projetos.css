@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+body{
+    background-color: #f0f0f0;
+    width: 80%
+
+}
+#menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    list-style-type: none;
+    margin: 0;
+    display: 0;
+    font-size: 1.5rem;
+
+}
+#menu a{
+    position: relative;
+    padding: 6px;
+    color: #444;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    text-decoration: none;
+
+}
+
+/*================================================
+Start Important Part
+==================================================*/
+
+.underline--magical {
+    background-image: linear-gradient(120deg, #BD3D38 0%, #f0f0f0 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2rem;
+    background-position: 0 88%;
+    transition: background-size 0.25s ease-in;
+
+}
+
+.underline--magical:hover {
+    background-size: 100% 88%;
+}
+
+/*================================================
+End Important Part
+==================================================*/
+#wrapper{
+    margin-left: 20%;
+    margin-top:6rem;
+}
+
+#gallery{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 5rem;
+}
+
+#page-title{
+    color: #444;
+    font-family: 'Xanh Mono', monospace;
+    font-size: 2.6rem;
+    text-align: center;
+}
+
+#page-description{
+    color: #444;
+    font-family: 'Open Sans Condensed';
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+#gallery-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+
+}
+
+.project-items1,.project-items2,.project-items3{
+    border-top: 15px solid #444;
+    border-bottom: 15px solid #444;
+    border-right: 7px solid #444;
+    border-left: 7px solid #444;
+    outline-offset: -15px;
+    width: 18rem;
+    height: 13rem;
+    text-decoration: none;
+    position: relative;
+}
+
+#icon1{
+    margin: 2rem 0rem 2rem 5rem;
+    width: 8rem;
+}
+
+#icon2{
+    margin: 2rem 0rem 2rem 4.5rem;
+    width: 8rem
+}
+
+#icon3{
+    margin: 3rem 0rem 2rem 4.5rem;
+    width: 8rem
+}
+
+
+
+#item1-thumb, #item2-thumb, #item3-thumb{
+    margin: 5rem 0rem 2rem 5rem;
+    width: 8rem;
+    color: #f0f0f0;
+    text-align: center;
+    font-family: 'Open Sans Condensed';
+    font-size: 1.4rem;
+}
+
+
+.overlay1,.overlay2,.overlay3{
+    position: absolute;
+    bottom: 0;
+    background: #bd3c38d8 ;/* Black see-through */
+    color: #f0f0f0;
+    transition: .5s ease;
+    opacity: 0;
+    width: 18rem;
+    height: 13rem;
+}
+
+.project-items1:hover .overlay1{
+    opacity: 1;
+}
+
+.project-items2:hover .overlay2{
+    opacity: 1;
+}
+
+.project-items3:hover .overlay3{
+    opacity: 1;
+}
