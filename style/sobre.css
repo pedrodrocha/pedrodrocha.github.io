@@ -54,7 +54,7 @@ End Important Part
 ==================================================*/
 #wrapper{
     margin-left: 20%;
-    margin-top:6rem;
+    margin-top:5.5rem;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -62,7 +62,7 @@ End Important Part
 
 }
 #eu{
-    width: 10rem;
+    width: 11rem;
     height: auto;
     border-radius: 20%;
     border: .2rem solid #444;
