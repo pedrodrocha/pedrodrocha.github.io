@@ -57,7 +57,7 @@ class Gallery extends Component{
             
             <div id={`overlay${project.id}`}>
 
-                <div id={`item${project.id}-thumb`}>
+                <div id={`item-thumb${project.id}`}>
 
                     <p>{project.name}</p>
                     <hr/>
@@ -106,42 +106,19 @@ render(
     d3.select('#root').node()
 )
 
-// Setting up interactions with D3
-d3.select('#project-items1')
-    .style('position','relative')
-    .on('mouseover',function(){
-        d3.select('#overlay1')
-     
-            .style('opacity','1')
-    })
-    .on('mouseout', function(){
-        d3.select('#overlay1')
-   
-            .style('opacity','0')
-    })
 
-d3.select('#project-items2')
-    .style('position','relative')
-    .on('mouseover',function(){
-        d3.select('#overlay2')
-     
-            .style('opacity','1')
-    })
-    .on('mouseout', function(){
-        d3.select('#overlay2')
-      
-            .style('opacity','0')
-    })
+// Setting up overlay events with D3    
+const overlayEvents = projects.map((project,i) => {
+    d3.select(`#project-items${i + 1}`)
+        .style('position','relative')
+        .on('mouseover',function(){
+            d3.select(`#overlay${i + 1}`)     
+                .style('opacity','1')
+        })
+        .on('mouseout', function(){
+            d3.select(`#overlay${i + 1}`)   
+                .style('opacity','0')
+        })
+})
 
-d3.select('#project-items3')
-    .style('position','relative')
-    .on('mouseover',function(){
-        d3.select('#overlay3')
 
-            .style('opacity','1')
-    })
-    .on('mouseout', function(){
-        d3.select('#overlay3')
-
-            .style('opacity','0')
-    })
