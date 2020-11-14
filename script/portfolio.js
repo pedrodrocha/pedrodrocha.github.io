@@ -178,8 +178,6 @@ const projects = [
 //     .style('align-content','center')
 //     .style('gap','5rem')
 
-
-
 // d3.select('#page-title')
 //     .style('color','#444')
 //     .style('font-family','Xanh Mono')
@@ -227,55 +225,4 @@ const projects = [
 //     .style('width','8rem')    
 
 
-
-
-// -----------------------
-
-// d3.select('#item1')
-//     .on('mouseover', function(){
-//         d3.select(this)
-//             .classed('onHoverImg', true)
-//         d3.select('#item1-thumb')
-//             .classed('onHover',false)
-
-//     })    
-//     .on('mouseout', function(){
-//         d3.select(this)
-//             .classed('onHoverImg', false)
-
-//         d3.select('#item1-thumb')
-//             .classed('onHover',true)
-//     })
-
-
-// d3.select('#item2')
-//     .on('mouseover', function(){
-//         d3.select(this)
-//             .classed('onHoverImg', true)
-//         d3.select('#item2-thumb')
-//             .classed('onHover',false)
-//     })    
-//     .on('mouseout', function(){
-//         d3.select(this)
-//             .classed('onHoverImg', false)
-
-//         d3.select('#item2-thumb')
-//             .classed('onHover',true)
-//     })
-
-
-// d3.select('#item3')
-//     .on('mouseover', function(){
-//         d3.select(this)
-//             .classed('onHoverImg', true)
-//         d3.select('#item3-thumb')
-//             .classed('onHover',false)
-//     })    
-//     .on('mouseout', function(){
-//         d3.select(this)
-//             .classed('onHoverImg', false)
-
-//         d3.select('#item3-thumb')
-//             .classed('onHover',true)
-//     })
 
