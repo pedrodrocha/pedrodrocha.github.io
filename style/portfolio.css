@@ -132,6 +132,10 @@ End Important Part
     height: 13rem;
 }
 
+#overlay2{
+    width: 17.99rem;
+}
+
 #project-items1:hover #overlay1{
     opacity: 1;
 }
