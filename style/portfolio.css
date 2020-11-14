@@ -82,7 +82,7 @@ End Important Part
 
 }
 
-.project-items1,.project-items2,.project-items3{
+#project-items1, #project-items2, #project-items3{
     border-top: 15px solid #444;
     border-bottom: 15px solid #444;
     border-right: 7px solid #444;
@@ -121,10 +121,10 @@ End Important Part
 }
 
 
-.overlay1,.overlay2,.overlay3{
+#overlay1, #overlay2, #overlay3{
     position: absolute;
     bottom: 0;
-    background: #bd3c38d8 ;/* Black see-through */
+    background: #bd3c38d8 ;/*see-through */
     color: #f0f0f0;
     transition: .5s ease;
     opacity: 0;
@@ -132,14 +132,14 @@ End Important Part
     height: 13rem;
 }
 
-.project-items1:hover .overlay1{
+#project-items1:hover #overlay1{
     opacity: 1;
 }
 
-.project-items2:hover .overlay2{
+#project-items2:hover #overlay2{
     opacity: 1;
 }
 
-.project-items3:hover .overlay3{
+#project-items3:hover #overlay3{
     opacity: 1;
 }
