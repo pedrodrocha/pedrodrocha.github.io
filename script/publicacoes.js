@@ -86,6 +86,7 @@ d3.select('#page-title')
     .style('color','#444')
     .style('font-family','Xanh Mono')
     .style('font-size','2.6rem')
+    .style('text-align','center')
 
 d3.select('#h1-svg')
     .style('width','3rem')
