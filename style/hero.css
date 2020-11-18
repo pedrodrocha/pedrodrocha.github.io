@@ -53,7 +53,7 @@ h1{
 #item-hero-animation1{
     animation-duration: 4s;
     animation-name: slidein1;
-    margin-left: 50%;
+    margin-left: 52%;
 }
 
 #item-hero-animation1 img{
@@ -68,7 +68,7 @@ h1{
       margin-left: -100%;
     }  
     to {
-      margin-left: 50%;
+      margin-left: 52%;
     }
 }
 
