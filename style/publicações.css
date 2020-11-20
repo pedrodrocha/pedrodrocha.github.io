@@ -53,3 +53,52 @@ End Important Part
     margin-bottom: 2rem;
 }
 
+
+.article-box-content{
+    border-bottom: 1px dashed #444;
+}
+
+
+
+.page-title{
+    color: #444;
+    font-family: 'Xanh Mono';
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 6rem;
+}
+
+.h1-svg{
+    width: 3rem;
+}
+
+.article-title{
+    color: #444;
+    font-family: 'Open Sans Condensed';
+    font-size: 1.5rem;
+}
+
+.article-authors{
+    color: #444;
+    font-family: 'Open Sans Condensed';
+    font-size: 1.1rem;
+    font-style: italic;
+}
+
+.article-resumo{
+    color: #444;
+    font-family: 'Open Sans Condensed';
+    font-size: 1.3rem;
+    text-align: justify;
+    line-height: 1.9rem;
+}
+
+.article-keywords{
+    color: #444;
+    font-family: 'Open Sans Condensed';
+    font-size: 1rem;
+}
+
+.keywords-label{
+    font-weight: bold;
+}

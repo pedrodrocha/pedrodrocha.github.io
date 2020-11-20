@@ -89,7 +89,7 @@ class App extends Component{
             <div id='gallery'> 
                 <div id='gallery-header'>
                     <h1 id='page-title'>Portfólio</h1>
-                    <hr/>
+
                     <p id='page-description'>Aqui estão reunidos alguns dos meus projetos e apresentações na área de tecnologia, design, visualização de dados e Relações Internacionais.</p>
                 </div>
 

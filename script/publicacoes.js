@@ -46,13 +46,13 @@ const artigos = [
 function Articles(props){
 
     const content = props.listaDeArtigos.map((article) =>
-        <div key={article.id}>
-            <hr/>   
+        <div key={article.id} id='article-box-content' className='article-box-content'>
+
             <h3 className='article-title'>{article.title}</h3>
             <p className='article-authors'>{article.autores.join()}</p>
             {/* <p><a href={article.link}>{article.periodico}</a></p> */}
             <p className='article-resumo'>{article.resumo} <a className='r-link link text-underlined' href={article.link}>Saiba Mais </a></p>
-            <p className='article-keywords'><span id='keywords-label'>Palavras-chave:</span> {article.palavrasChave.join()}</p>    
+            <p className='article-keywords'><span id='keywords-label' className='keywords-label'>Palavras-chave:</span> {article.palavrasChave.join()}</p>    
         </div>
 
     )
@@ -68,7 +68,7 @@ class App extends Component{
     render(){
         return(
             <div id='app'>
-                <h1 id='page-title'>Produções Selecionadas <img id='h1-svg' src='../resources/artigo.svg'></img></h1>
+                <h1 id='page-title' className='page-title'>Produções Selecionadas <img id='h1-svg' className='h1-svg' src='../resources/artigo.svg'></img></h1>
                 <Articles listaDeArtigos={artigos}/>
             </div>
         )
@@ -81,38 +81,7 @@ render(
 
 
 
-// Style
-d3.select('#page-title')
-    .style('color','#444')
-    .style('font-family','Xanh Mono')
-    .style('font-size','2.6rem')
-    .style('text-align','center')
 
-d3.select('#h1-svg')
-    .style('width','3rem')
 
-d3.selectAll('.article-title')
-    .style('color','#444') 
-    .style('font-family','Open Sans Condensed')
-    .style('font-size','1.5rem')
 
-d3.selectAll('.article-authors')
-    .style('color','#444')
-    .style('font-family','Open Sans Condensed')
-    .style('font-size','1.1rem')
-    .style('font-style','italic')
 
-d3.selectAll('.article-resumo')
-    .style('color','#444')
-    .style('font-family','Open Sans Condensed')
-    .style('text-align','justify')
-    .style('line-height','1.9rem')
-    .style('font-size','1.3rem')
-
-d3.selectAll('.article-keywords')
-    .style('color','#444')
-    .style('font-family','Open Sans Condensed')
-    .style('font-size','1rem')
-
-d3.selectAll('#keywords-label')
-    .style('font-weight','bold')

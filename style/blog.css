@@ -6,10 +6,9 @@
 
 body{
     background-color: #f0f0f0;
-    margin: 0;
-    padding: 0;
-}
+    width: 80%
 
+}
 #menu{
     display: flex;
     flex-direction: row;
@@ -18,7 +17,6 @@ body{
     margin: 0;
     display: 0;
     font-size: 1.5rem;
-    width: 80%
 
 }
 #menu a{
@@ -50,35 +48,78 @@ Start Important Part
 /*================================================
 End Important Part
 ==================================================*/
-
-
-
-.wrapper{
-    margin: 0;
-    padding: 0;
+#wrapper{
+    margin-left: 20%;
     margin-top:6rem;
+    margin-bottom: 3rem;
 }
 
-.root{
-    margin: 0;
-    padding: 0;
+
+
+.page-title{
+    color: #444;
+    font-family: 'Xanh Mono';
+    font-size: 3rem;
+    text-align: center;
 }
 
-.main{
-    width: 100%;
-    height: 400px;
-    background-color: #c78684;
-    border-top:1px solid #BD3D38;
-    border-bottom:1px solid #BD3D38;
-    margin: 0;
-    padding: 0;
+.blog-description{
+    color: #444;
+    font-family: 'Open Sans Condensed';
+    text-align: center;
+    font-size: 1.6rem;    
+    margin-bottom: 6rem;
 }
 
-.main-texto{
-    display: flex;
-    flex-direction: column;
-    margin-left: 5%;
-    margin-top: 15%;
-    position:fixed;
+.post-box-content{
+    position: relative;
+    border-left: 4px solid #444;
+    background-color: #f0f0f086;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.post-box-content:hover{
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 1px #f0f0f0;
+    border-left: 4px solid #BD3D38;
+}
+
+
+.post-title{
+    color: #444;
+    font-family: 'Open Sans Condensed';
+    font-size: 2rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.post-title:hover{
+    color: #BD3D38;
+}
+
+.post-resumo{
+    color: #444;
+    font-family: 'Open Sans Condensed';
+    font-size: 1.3rem;
+    text-align: justify;
+    line-height: 1.9rem;
+}
+
+.post-data{
+    font-family: 'Abel';
+    color: #444;
+    font-size: 1rem;
+    font-weight: bold;
+    font-style: italic;
+}
+.post-tag{
+    position: absolute;
+    top: 80%;
+    left: 87%;
+    font-family: 'Abel';
+    font-weight: bold;
+    font-size: 1rem;
+    color: #BD3D38;
 }
 
