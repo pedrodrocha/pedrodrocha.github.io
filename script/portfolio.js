@@ -11,14 +11,14 @@ const projects = [
         width: '8rem',
         margin: '2rem 0rem 2rem 5rem'
     },
-    {   
+    {
         id: 2,
-        name:'ABRI 2020',
-        type:'Slide Deck',
-        photo: 'resources/power-point.svg',
-        link:'https://drive.google.com/file/d/1OyQRJR6U03rlL6yov26X-Xw4P5T5IMIn/view?usp=sharing',
+        name:'TidyTuesday & Makeover Monday',
+        type: 'Dataviz',
+        photo: 'resources/noun_bar_graph.svg',
+        link:'https://observablehq.com/collection/@pedrodrocha/tidytuesday-and-makeover-monday-plots',
         width: '8rem',
-        margin: '2rem 0rem 2rem 4.5rem'
+        margin: '3rem 0rem 2rem 4.5rem'
     },
     {
         id: 3,
@@ -28,7 +28,16 @@ const projects = [
         link:'https://github.com/pedrodrocha/cbloldataR',
         width: '8rem',
         margin: '3rem 0rem 2rem 4.5rem'
-    }
+    },
+    {   
+        id: 4,
+        name:'ABRI 2020',
+        type:'Slide Deck',
+        photo: 'resources/power-point.svg',
+        link:'https://drive.google.com/file/d/1OyQRJR6U03rlL6yov26X-Xw4P5T5IMIn/view?usp=sharing',
+        width: '8rem',
+        margin: '2rem 0rem 2rem 4.5rem'
+    },
 
 ];
 

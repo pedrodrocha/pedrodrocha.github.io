@@ -118,8 +118,9 @@ Estilos iterativos por elemento da galeria-portfólio
     color: #f0f0f0;
     text-align: center;
     font-family: 'Open Sans Condensed';
-    font-size: 1.4rem;
+    font-size: 1rem;
 }
+
 
 [id^=overlay]{
     position: absolute;
@@ -135,6 +136,11 @@ Estilos iterativos por elemento da galeria-portfólio
 /* Concertando detalhes no tamanho do overlay criado automaticamente*/
 #overlay2{
     width: 17.98rem;
+}
+#overlay4{
+    width: 17.98rem;
+    height: 12.99rem;
+    margin-bottom: 0.01rem;
 }
 /*================================================
 Fim dos estilos iterativos por elemento da galeria do portifólio
