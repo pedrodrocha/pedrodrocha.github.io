@@ -252,7 +252,7 @@ Start Important Part
     #item-hero-animation3{
         animation-duration: 4s;
         animation-name: slidein3;
-        margin-left: 40%;
+        margin-left: 0%;
         margin-top: .5rem;
     }
     
@@ -268,7 +268,7 @@ Start Important Part
           margin-left: -100%;
         }  
         to {
-          margin-left: 40%;
+          margin-left: 0%;
         }
     }
 
