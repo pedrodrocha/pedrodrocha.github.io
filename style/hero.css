@@ -120,7 +120,6 @@ h1{
 
 
 
-
 .blink-text-menu {
     display: flex;
     flex-direction: row;
@@ -167,3 +166,116 @@ Start Important Part
   /*================================================
   End Important Part
   ==================================================*/
+
+
+  
+  @media screen and (max-width: 600px){
+    
+    h1{
+        font-family: 'Xanh Mono', monospace;
+        font-size: 2rem;
+        animation-duration: 3s;
+        animation-name: slideinh1;
+        margin-left: 0%;
+        color: #444;
+        margin-top: 6rem
+    }
+    @keyframes slideinh1 {
+        from {
+          margin-left: -100%;
+        }
+      
+        to {
+          margin-left: -0%;
+        }
+    }
+    
+    #items-hero{
+        font-family: 'Abel', 'Courier New', Courier, monospace;
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        font-size: 1rem;
+        color: #444;
+    }
+    
+    #items-hero li{
+        padding-top: .5rem;
+    }
+    
+    
+    
+    #item-hero-animation1{
+        animation-duration: 4s;
+        animation-name: slidein1;
+        margin-left: 0%;
+        margin-top: 1rem;
+    }
+    
+    #item-hero-animation1 img{
+        width: 2rem;
+        margin-right: 1rem;
+        color: #444;
+    
+    }
+    
+    @keyframes slidein1 {
+        from {
+          margin-left: -100%;
+        }  
+        to {
+          margin-left: 0%;
+        }
+    }
+    
+    #item-hero-animation2{
+        animation-duration: 4s;
+        animation-name: slidein2;
+        margin-left: -20%;
+    }
+    
+    
+    #item-hero-animation2 img{
+        width: 2rem;
+        margin-right: 1em;
+        color: #444;
+    
+    }
+    @keyframes slidein2 {
+        from {
+          margin-left: -100%;
+        }  
+        to {
+          margin-left: -20%;
+        }
+    }
+    
+    #item-hero-animation3{
+        animation-duration: 4s;
+        animation-name: slidein3;
+        margin-left: 40%;
+        margin-top: .5rem;
+    }
+    
+    #item-hero-animation3 img{
+        width: 1.5rem;
+        margin-right: 1rem;
+        color: #444;
+    
+    }
+    
+    @keyframes slidein3 {
+        from {
+          margin-left: -100%;
+        }  
+        to {
+          margin-left: 40%;
+        }
+    }
+
+    .blink-text-menu {
+
+        font-size: 1.3rem;
+    }
+
+}
