@@ -13,10 +13,10 @@ const projects = [
     },
     {
         id: 2,
-        name:'TidyTuesday & Makeover Monday',
-        type: 'Dataviz',
+        name:'#TidyTuesday Week 48',
+        type: 'DataViz',
         photo: 'resources/noun_bar_graph.svg',
-        link:'https://observablehq.com/collection/@pedrodrocha/tidytuesday-and-makeover-monday-plots',
+        link:'https://observablehq.com/@pedrodrocha/transposing-my-tidytuesday-plot-week-48-from-ggplo2-to-d3',
         width: '8rem',
         margin: '3rem 0rem 2rem 4.5rem'
     },
@@ -35,6 +35,15 @@ const projects = [
         type:'Slide Deck',
         photo: 'resources/power-point.svg',
         link:'https://drive.google.com/file/d/1OyQRJR6U03rlL6yov26X-Xw4P5T5IMIn/view?usp=sharing',
+        width: '8rem',
+        margin: '2rem 0rem 2rem 4.5rem'
+    },
+    {   
+        id: 5,
+        name:'#MakeoverMonday Week 48',
+        type: 'DataViz',
+        photo: 'resources/noun_bar_graph.svg',
+        link:'https://pedrodrocha.com/makeovermonday/Week48/operationfistula',
         width: '8rem',
         margin: '2rem 0rem 2rem 4.5rem'
     },

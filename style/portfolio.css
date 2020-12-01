@@ -145,8 +145,15 @@ Estilos iterativos por elemento da galeria-portfólio
     width: 17.98rem;
 }
 #overlay4{
-    width: 17.98rem;
+    width: 17.99rem;
     height: 12.99rem;
+    margin-bottom: 0.01rem;
+}
+
+#overlay5{
+    height: 12.99rem;
+    margin-left: 0.02rem;
+    width: 17.98rem;
     margin-bottom: 0.01rem;
 }
 /*================================================
