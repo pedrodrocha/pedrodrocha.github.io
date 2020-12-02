@@ -201,6 +201,7 @@ async function heat(){
         const years = datum.years_leaking
         const lost = datum.years_lost
         const format = d3.format(".2f")
+
         tooltip.select('#age')
             .text(age)
         tooltip.select('#country')
@@ -210,6 +211,11 @@ async function heat(){
         tooltip.select('#lost')
             .text(format(lost))
 
+        // Border on hover
+        d3.select(this)
+            .attr('stroke','#444444')
+            .attr('stroke-width','1px')
+
 
         tooltip
             .style('opacity',1)
@@ -217,7 +223,11 @@ async function heat(){
 
     function onMouseLeave(event,datum){
         tooltip
-        .style('opacity',0)
+            .style('opacity',0)
+
+        d3.select(this)
+            .attr('stroke','#444444')
+            .attr('stroke-width','0px')
     }
 }
 
