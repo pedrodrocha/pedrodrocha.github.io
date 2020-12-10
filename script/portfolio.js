@@ -11,14 +11,14 @@ const projects = [
         width: '8rem',
         margin: '2rem 0rem 2rem 5rem'
     },
-    {
+    {   
         id: 2,
-        name:'#MakeoverMonday Week 48',
+        name:'TidyTuesday',
         type: 'DataViz',
         photo: 'resources/noun_bar_graph.svg',
-        link:'https://pedrodrocha.com/makeovermonday/Week48/operationfistula',
+        link:'https://github.com/pedrodrocha/TidyTuesday',
         width: '8rem',
-        margin: '2rem 0rem 2rem 4.5rem'
+        margin: '3rem 0rem 2rem 4.5rem'
     },
     {
         id: 3,
@@ -38,14 +38,14 @@ const projects = [
         width: '8rem',
         margin: '2rem 0rem 2rem 4.5rem'
     },
-    {   
+    {
         id: 5,
-        name:'#TidyTuesday Week 48',
+        name:'#MakeoverMonday Week 48',
         type: 'DataViz',
         photo: 'resources/noun_bar_graph.svg',
-        link:'https://observablehq.com/@pedrodrocha/transposing-my-tidytuesday-plot-week-48-from-ggplo2-to-d3',
+        link:'https://pedrodrocha.com/makeovermonday/Week48/operationfistula',
         width: '8rem',
-        margin: '3rem 0rem 2rem 4.5rem'
+        margin: '2rem 0rem 2rem 4.5rem'
     },
 
 ];
