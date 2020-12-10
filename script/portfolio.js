@@ -40,10 +40,10 @@ const projects = [
     },
     {
         id: 5,
-        name:'#MakeoverMonday Week 48',
+        name:'#MakeoverMonday',
         type: 'DataViz',
         photo: 'resources/noun_bar_graph.svg',
-        link:'https://pedrodrocha.com/makeovermonday/Week48/operationfistula',
+        link:'https://github.com/pedrodrocha/MakeoverMonday',
         width: '8rem',
         margin: '2rem 0rem 2rem 4.5rem'
     },
