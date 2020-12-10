@@ -103,7 +103,6 @@ const yScale = d3.scaleLinear()
 
 };
 
-scatterplot();
 
 async function heat(){
 

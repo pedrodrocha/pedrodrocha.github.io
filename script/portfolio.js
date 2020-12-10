@@ -13,7 +13,7 @@ const projects = [
     },
     {   
         id: 2,
-        name:'TidyTuesday',
+        name:'#TidyTuesday',
         type: 'DataViz',
         photo: 'resources/noun_bar_graph.svg',
         link:'https://github.com/pedrodrocha/TidyTuesday',

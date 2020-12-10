@@ -45,6 +45,8 @@ body{
     font-weight:bolder;
     font-size: 2rem;
     align-self: center;
+    padding: 0;
+    margin: 1rem 0;
 }
 
 
