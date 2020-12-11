@@ -31,10 +31,10 @@ const projects = [
     },
     {   
         id: 4,
-        name:'ABRI 2020',
+        name:'COBRAINT 2020',
         type:'Slide Deck',
         photo: 'resources/power-point.svg',
-        link:'https://drive.google.com/file/d/1OyQRJR6U03rlL6yov26X-Xw4P5T5IMIn/view?usp=sharing',
+        link:'https://drive.google.com/file/d/1X1MxbMeFVnij8RhrllPdnx05cgUI4eB4/view?usp=sharing',
         width: '8rem',
         margin: '2rem 0rem 2rem 4.5rem'
     },
