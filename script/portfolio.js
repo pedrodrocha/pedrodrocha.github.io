@@ -22,10 +22,10 @@ const projects = [
     },
     {
         id: 3,
-        name:'cbloldataR',
+        name:'camaradeputadosapi',
         type: 'Pacote R',
         photo: 'resources/code.svg',
-        link:'https://github.com/pedrodrocha/cbloldataR',
+        link:'https://github.com/pedrodrocha/camaradeputadosapi',
         width: '8rem',
         margin: '3rem 0rem 2rem 4.5rem'
     },
