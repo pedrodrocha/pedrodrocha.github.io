@@ -25,7 +25,7 @@ const projects = [
         name:'camaradeputadosapi',
         type: 'Pacote R',
         photo: 'resources/code.svg',
-        link:'https://github.com/pedrodrocha/camaradeputadosapi',
+        link:'https://pedrodrocha.com/camaradeputadosapi/',
         width: '8rem',
         margin: '3rem 0rem 2rem 4.5rem'
     },
