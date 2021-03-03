@@ -29,17 +29,8 @@ const projects = [
         width: '8rem',
         margin: '3rem 0rem 2rem 4.5rem'
     },
-    {   
-        id: 4,
-        name:'COBRAINT 2020',
-        type:'Slide Deck',
-        photo: 'resources/power-point.svg',
-        link:'https://drive.google.com/file/d/1X1MxbMeFVnij8RhrllPdnx05cgUI4eB4/view?usp=sharing',
-        width: '8rem',
-        margin: '2rem 0rem 2rem 4.5rem'
-    },
     {
-        id: 5,
+        id: 4,
         name:'#MakeoverMonday',
         type: 'DataViz',
         photo: 'resources/noun_bar_graph.svg',
